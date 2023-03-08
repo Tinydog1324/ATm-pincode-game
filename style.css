@@ -1,0 +1,55 @@
+body {
+    font-family: Arial,  sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+    border: solid black 50px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#try-again-button,#play-again-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    margin: 0 auto;
+
+}
+
+#message,#display-pin {
+    margin: 30px;
+    color: #4CAF50;
+    font-size: 20px;
+}
